@@ -1,0 +1,10 @@
+{% extends 'todo/layout.html' %}
+{% block title %} To Do List {% endblock %}
+{% block body %}
+    <form action="{% url 'todo:new' %}" method="POST">
+        {% csrf_token %}
+        {{ form }}
+        <button type="submit">Submit</button>
+    </form>
+{% endblock %}
+
