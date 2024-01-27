@@ -1,0 +1,48 @@
+body {
+  background-image: url("bg.jpg");
+}
+
+#countLbl {
+  display: block;
+  text-align: center;
+  font-family: Helvetica;
+  font-size: 100px;
+}
+
+#btnContainer {
+  text-align: center;
+  padding: 50px 50px;
+}
+
+#titleHeading {
+  text-align: center;
+  font-size: 80px;
+}
+
+#settingsContainer {
+  display: block;
+  text-align: center;
+  padding: 20px 50px;
+  border: double;
+}
+
+#resetBtn {
+  background-color: rgb(224, 45, 45);
+}
+.settingsBtn {
+  padding: 5px 6px;
+  background-color: rgb(230, 145, 17);
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.countBtn {
+  padding: 11px 22px;
+  background-color: hsl(202, 94%, 56%);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.countBtn:hover {
+  background-color: hsla(17, 91%, 57%, 0.822);
+}
