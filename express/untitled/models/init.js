@@ -1,3 +1,5 @@
+import { pool_options } from "../config/database.config";
+
 const pool = mysql.createPool(pool_options).promise();
 
 const create_dept_table = async () => {
